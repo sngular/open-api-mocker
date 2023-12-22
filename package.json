@@ -1,17 +1,18 @@
 {
-  "name": "open-api-mocker",
-  "version": "2.0.0",
+  "name": "@sngular/open-api-mocker",
+  "version": "0.0.0",
   "description": "A mock server based in Open API Specification",
   "main": "lib/open-api-mocker.js",
   "bin": {
-    "open-api-mocker": "lib/open-api-mocker-cli.js"
+    "sngular-open-api-mocker": "lib/open-api-mocker-cli.js"
   },
   "scripts": {
     "lint": "eslint ./lib ./tests",
     "test": "mocha -R nyan --recursive --require tests/bootstrap.js tests/",
     "coverage:ci": "nyc --reporter=lcov mocha --recursive tests/",
     "coverage": "nyc npm test",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "npx semantic-release"
   },
   "files": [
     "lib/"
@@ -27,6 +28,12 @@
   "author": "Joaquin Ormaechea",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/commit-analyzer": "^10.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^9.0.0",
+    "@semantic-release/npm": "^10.0.0",
+    "@semantic-release/release-notes-generator": "^11.0.0",
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
@@ -35,6 +42,7 @@
     "mocha": "^10.2.0",
     "mock-require": "^3.0.3",
     "nyc": "^15.1.0",
+    "semantic-release": "^21.0.0",
     "sinon": "^15.1.0"
   },
   "dependencies": {
@@ -61,10 +69,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://jormaechea@github.com/jormaechea/open-api-mocker.git"
+    "url": "git+https://github.com/sngular/open-api-mocker.git"
   },
   "bugs": {
-    "url": "https://github.com/jormaechea/open-api-mocker/issues"
+    "url": "https://github.com/sngular/open-api-mocker/issues"
   },
-  "homepage": "https://github.com/jormaechea/open-api-mocker#readme"
+  "homepage": "https://github.com/sngular/open-api-mocker#readme",
+	"publishConfig": {
+		"access": "public"
+	}
 }
