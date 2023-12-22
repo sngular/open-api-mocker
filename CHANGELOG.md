@@ -1,3 +1,23 @@
+# 1.0.0 (2023-12-22)
+
+
+### Bug Fixes
+
+* add examples to MediaTypeStruct ([1eee799](https://github.com/sngular/open-api-mocker/commit/1eee799272ea66af4f437e510e584d74c946372e))
+* examples object structure for value property, tests ([453e6f6](https://github.com/sngular/open-api-mocker/commit/453e6f61b5496ba08305ecc99ce843510908c401))
+* lint errors, no-mixed-operators, no-trailing-spaces ([27ac251](https://github.com/sngular/open-api-mocker/commit/27ac25197327f29de2077f1a3b2f43e47b1a285d))
+* linting errors :( ([a5baf6a](https://github.com/sngular/open-api-mocker/commit/a5baf6a38c3eae66fd9586e1c36c44ec5fd3d3d0))
+* **parse:** solve remote and circular references ([0391803](https://github.com/sngular/open-api-mocker/commit/0391803dd865cf6e03a9c7928a343a41b898e71f))
+* test for invalid schema in examples ([525672c](https://github.com/sngular/open-api-mocker/commit/525672cca36b019792f91368c2d7dfff15574436))
+* **Validation:** Schema validator now accepts OpenAPI formats ([1128a05](https://github.com/sngular/open-api-mocker/commit/1128a0549c1c696fdc91f9f1b47e7ad47bf19b7e)), closes [#19](https://github.com/sngular/open-api-mocker/issues/19)
+
+
+### Features
+
+* add prefer example implementation ([02ecd77](https://github.com/sngular/open-api-mocker/commit/02ecd77668290848e0a6b35d6e275fab4743f703))
+* add support to schema format ([fefe0a5](https://github.com/sngular/open-api-mocker/commit/fefe0a5b271df93674a536fd3c67360fc341a5d9))
+* Allow custom servers to be injected. ([b909180](https://github.com/sngular/open-api-mocker/commit/b909180496741e2723e8aef26387e03034f241e7))
+
 # Changelog
 All notable changes to this project will be documented in this file.
 

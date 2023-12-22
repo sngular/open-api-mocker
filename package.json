@@ -1,6 +1,6 @@
 {
   "name": "@sngular/open-api-mocker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A mock server based in Open API Specification",
   "main": "lib/open-api-mocker.js",
   "bin": {
@@ -76,7 +76,7 @@
     "url": "https://github.com/sngular/open-api-mocker/issues"
   },
   "homepage": "https://github.com/sngular/open-api-mocker#readme",
-	"publishConfig": {
-		"access": "public"
-	}
+  "publishConfig": {
+    "access": "public"
+  }
 }
