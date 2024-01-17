@@ -155,8 +155,8 @@ describe('OpenAPI Mocker', () => {
 				await openApiMocker.validate();
 				await openApiMocker.mock();
 
-				sinon.assert.calledOnce(LocalSchemaLoader.prototype.load);
-				sinon.assert.notCalled(ExplicitSchemaLoader.prototype.load);
+				sinon.assert.calledOnce(ExplicitSchemaLoader.prototype.load);
+				sinon.assert.notCalled(LocalSchemaLoader.prototype.load);
 			});
 		});
 
