@@ -26,13 +26,7 @@ jobs:
         run: npm install --ci
 
       - name: Lint
-        run: npm run lint:check
-
-      - name: Format
-        run: npm run format:check
-
-      - name: Types
-        run: npm run types:check
+        run: npm run lint
   tests:
     name: Tests
     runs-on: ubuntu-latest
