@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sngular/open-api-mocker/compare/v1.0.0...v1.0.1) (2024-01-18)
+
+
+### Bug Fixes
+
+* remove LocalSchemaLoader ([85d684f](https://github.com/sngular/open-api-mocker/commit/85d684f22f3d30b3b62f94b866c8c2c98e02ea4a)), closes [#2](https://github.com/sngular/open-api-mocker/issues/2)
+
 # 1.0.0 (2023-12-22)
 
 
